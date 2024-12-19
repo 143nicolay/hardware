@@ -1,6 +1,6 @@
 <?php
 // Connect to the database
-$conn = new mysqli('localhost', 'jesy', '1234', 'hardware_store');
+$conn = new mysqli('localhost', 'celya', '12345', 'hardware_store');
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
